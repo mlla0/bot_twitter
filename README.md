@@ -2,7 +2,7 @@
 
 ### In the "lib" folder you will find two files: 
 
-####The "app.rb" file use several fonctions related to the twitter gem,
+#### The "app.rb" file use several fonctions related to the twitter gem,
 
   * `def login`  is logging to the Twitter API in REST mode.
   * `def tweet_sthg` 
@@ -12,7 +12,7 @@
   * `def follow_20_bonjour_monde`
 
 
-####The "app_streaming.rb" file use 3 definitions,
+#### The "app_streaming.rb" file use 3 definitions,
 
 In order to track a certain kind of topics (like #bonjour_monde), we have to use different clients. We use a client 'live' with streaming mode to track the topic and a client 'fixed' with Rest mode to like and follow the person who posted the tweet.
 
@@ -20,7 +20,7 @@ The `def track_tweet` definition is the only one we need to perform.
 By using the streaming client it track the topic and then apply for each the definition `def like_follow`.
 
 
-####works with :
+#### works with :
 Ruby 2.5.1 | gems : pry, rubocop, rspec, twitter, dotenv
 
 
